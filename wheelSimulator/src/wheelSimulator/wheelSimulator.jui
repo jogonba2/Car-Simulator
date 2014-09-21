@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0" language="jambi">
+ <class>wheelSimulator</class>
+ <widget class="QMainWindow" name="wheelSimulator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpciones">
+    <property name="title">
+     <string>Opciones</string>
+    </property>
+    <widget class="QMenu" name="menuRadio">
+     <property name="title">
+      <string>Radio</string>
+     </property>
+     <addaction name="actionActivar"/>
+     <addaction name="actionDesactivar"/>
+     <addaction name="actionMostrar"/>
+     <addaction name="actionNoMostrar"/>
+    </widget>
+    <addaction name="menuRadio"/>
+   </widget>
+   <widget class="QMenu" name="menuActions">
+    <property name="title">
+     <string>Actions</string>
+    </property>
+    <addaction name="runAction"/>
+    <addaction name="embAction"/>
+    <addaction name="frenAction"/>
+    <addaction name="girIzqAction"/>
+    <addaction name="girDerAction"/>
+   </widget>
+   <addaction name="menuActions"/>
+   <addaction name="menuOpciones"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="girDerAction">
+   <property name="text">
+    <string>&amp;GirDer</string>
+   </property>
+   <property name="shortcut">
+    <string>Right</string>
+   </property>
+  </action>
+  <action name="girIzqAction">
+   <property name="text">
+    <string>&amp;girIzq</string>
+   </property>
+   <property name="shortcut">
+    <string>Left</string>
+   </property>
+  </action>
+  <action name="runAction">
+   <property name="text">
+    <string>&amp;runAction</string>
+   </property>
+   <property name="shortcut">
+    <string>F</string>
+   </property>
+  </action>
+  <action name="frenAction">
+   <property name="text">
+    <string>&amp;FrenAction</string>
+   </property>
+   <property name="shortcut">
+    <string>D</string>
+   </property>
+  </action>
+  <action name="embAction">
+   <property name="text">
+    <string>&amp;embAction</string>
+   </property>
+   <property name="shortcut">
+    <string>S</string>
+   </property>
+  </action>
+  <action name="actionCambiar_regi_n">
+   <property name="text">
+    <string>Cambiar región</string>
+   </property>
+  </action>
+  <action name="actionInterfaz_Movable">
+   <property name="text">
+    <string>Interfaz Movable</string>
+   </property>
+  </action>
+  <action name="actionMover">
+   <property name="text">
+    <string>Mover</string>
+   </property>
+  </action>
+  <action name="actionActivar">
+   <property name="text">
+    <string>Activar</string>
+   </property>
+   <property name="shortcut">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="actionDesactivar">
+   <property name="text">
+    <string>Desactivar</string>
+   </property>
+   <property name="shortcut">
+    <string>X</string>
+   </property>
+  </action>
+  <action name="actionVolante">
+   <property name="text">
+    <string>Volante</string>
+   </property>
+  </action>
+  <action name="actionVeloc_metro">
+   <property name="text">
+    <string>Velocímetro</string>
+   </property>
+  </action>
+  <action name="actionFreno">
+   <property name="text">
+    <string>Freno</string>
+   </property>
+  </action>
+  <action name="actionAcelerador">
+   <property name="text">
+    <string>Acelerador</string>
+   </property>
+  </action>
+  <action name="actionMostrar">
+   <property name="text">
+    <string>Mostrar</string>
+   </property>
+   <property name="shortcut">
+    <string>S</string>
+   </property>
+  </action>
+  <action name="actionNoMostrar">
+   <property name="text">
+    <string>No Mostrar</string>
+   </property>
+   <property name="shortcut">
+    <string>H</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
